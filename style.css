@@ -14,6 +14,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  padding: 0 5%;
 }
 
 .test{
@@ -86,19 +87,28 @@ navigation bar
 .navv {
     display:inline;
     padding: 0 3%; 
+    transition: transform .5s;
+  
+}
+
+.navv:hover{
+  transform: scale(1.5);
 }
 .navv a {
     text-decoration:none;
     color: #2F3437;
-    font-size: 18px;
-    
+    font-size: 1em;
     
 }
+
+
 .navv a:hover {
     color: #FFF5F1;
     background-color: #b23a48
     
 }
+
+
 /*HEADER*/
     h1{
         padding:2em;
@@ -129,15 +139,16 @@ navigation bar
 }
 
 #hands{
-     display: inline;
+     display: block;
     margin-top: 10px; 
   margin-left: auto;
   margin-right: 90px;
   width: 30%;
+    
 }
 
 #help{
-width:30%; 
+width:26%; 
 }
 
 #signforhelp{
@@ -175,7 +186,7 @@ text-align: center;
 
 /*search bar */
 #Input {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-image: url('/css/searchicon.png'); 
   background-position: 10px 12px; 
   background-repeat: no-repeat;
   width: 90%; 
@@ -186,25 +197,25 @@ text-align: center;
 }
 
 #myUL {
-  /* Remove default list styling */
+ 
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 #myUL li a {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #FFC6AD; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #FFC6AD; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px;
+  color: black; 
+  display: block; 
 }
 
 #myUL li a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
+  background-color: #eee; 
 }
 
 
@@ -258,10 +269,16 @@ margin-top:20px;
     
     
 }
-
+#hans{
+   
+float: right;    
+ margin: 0 0 0 15px;
+width:30%
+}
 #yts{
 
 text-align: center;    
+    
 }
 
 #police{
@@ -277,5 +294,41 @@ text-align:center;
     width:30%;
 }
 
+#story{
+    width: 40%; 
+    margin-bottom:30px; 
+    margin-left:40px; 
+    margin-top:30px;
+}
+
+#flower{
+    width:35%;
+    float: left;    
+ margin: 0 15px 0 0;
+}
+
+
 /*stories*/
 
+#marg{
+    margin-bottom: 25px; 
+    
+}
+
+#register{
+    background-color: #b23a48; 
+  color: white; 
+    cursor: pointer; 
+  padding: 12px; 
+  border-radius: 10px; 
+  font-size: 13px; 
+    
+}
+
+#fts{
+    font-size:17px; 
+     text-decoration-color: #b23a48;
+    text-decoration-style: wavy; 
+    text-decoration-line: underline; 
+    margin-bottom:30;
+}
