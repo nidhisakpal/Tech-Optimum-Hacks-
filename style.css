@@ -1,0 +1,281 @@
+
+/*whole document*/
+html, body {
+     margin-right: 5%;
+    margin-left: 5%;  
+    
+   font-family: 'Lato', sans-serif;
+    background-color: #FFF5F1;
+    
+}
+
+header{
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.test{
+justify-items: center;
+}
+
+
+.navtitle{
+    font-size:70px;
+    padding:20px;
+    padding-right: 40px; 
+}
+
+.lines{
+line-height: 25px;
+    margin-bottom: 50px; 
+   /*position:absolute;
+    z-index: -1;*/
+}
+
+#iura{
+
+width:216px;
+    height:200px;
+    padding-right: 200px;
+       
+}
+
+#stats{
+
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  width: 30%;
+    
+}
+
+
+
+.navtitle{
+text-align: center;
+    width:75%
+   
+}
+
+/*
+navigation bar
+#education{
+     text-align: center;
+    background-color:white;
+    text-align: left;
+    
+}*/
+#iura{
+   
+     max-width: 20%;
+    max-height: 20%; 
+}
+
+.navbar{
+/*     text-align: center; */
+    list-style-type: none;
+    background-color:#fcb9b2;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navv {
+    display:inline;
+    padding: 0 3%; 
+}
+.navv a {
+    text-decoration:none;
+    color: #2F3437;
+    font-size: 18px;
+    
+    
+}
+.navv a:hover {
+    color: #FFF5F1;
+    background-color: #b23a48
+    
+}
+/*HEADER*/
+    h1{
+        padding:2em;
+    }
+    
+    /*TEXT*/
+
+#definition {
+    padding:3em; 
+}
+
+#quote{
+    font-family: 'Dancing Script', cursive;
+    font-size:40px; 
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+/*IMAGES */
+#signforhelp{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+    
+}
+
+#hands{
+     display: inline;
+    margin-top: 10px; 
+  margin-left: auto;
+  margin-right: 90px;
+  width: 30%;
+}
+
+#help{
+width:30%; 
+}
+
+#signforhelp{
+max-width: 40%;
+    max-height: 40%;
+    
+}
+
+/*back to top button*/
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #b23a48; 
+  color: white; 
+  cursor: pointer; 
+  padding: 12px; 
+  border-radius: 10px; 
+  font-size: 13px; 
+}
+
+#myBtn:hover {
+  background-color: #fcb9b2; 
+   color: black;
+}
+
+.edupage{
+text-align: center;
+    
+}
+
+/*search bar */
+#Input {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; 
+  background-repeat: no-repeat;
+  width: 90%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 20px; 
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #FFC6AD; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+/* Team
+.title {
+  color: grey;
+  font-size: 18px;
+}*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+    max-height: 450px;
+  margin: auto;
+
+    background-color:white; 
+      float: left;
+  padding: 5px 10px;
+  margin-right: 10px;
+    margin-top:60px;
+    margin-bottom:70px; 
+    margin-left:30px;
+    
+}
+
+
+.profilepic{
+   font-size: 20px; 
+    padding:10px;
+    margin:none;
+    color:black;
+    text-decoration-color: #fed0bb;
+    text-decoration-style: wavy; 
+    text-decoration-line: underline; 
+}
+#us{
+    text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+/*youtube */
+
+.yt {
+margin:20px; 
+    display:inline;
+margin-top:20px;
+    
+    
+}
+
+#yts{
+
+text-align: center;    
+}
+
+#police{
+text-align:center;
+    margin-bottom:30px;
+    margin-top: 50px;
+    
+}
+
+#statis{
+    float: right;    
+ margin: 0 0 0 15px;
+    width:30%;
+}
+
+/*stories*/
+
